@@ -1,4 +1,9 @@
+:root {
+    --padding: 1rem;
+    --height: auto;
+    --box-shadow: 0 0 30px gray;
 
+}
 
 nav {
     background-color: darkblue;
@@ -25,7 +30,7 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--box-shadow);
 }
 
 p {
@@ -36,8 +41,8 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / .2);
-    padding: 1rem;
-    background-color: rgb(237, 97, 79);
+    padding: var(--padding);
+    background-color: rgb(66, 111, 247);
     color: aliceblue;
     text-align: center;
 }
@@ -50,9 +55,9 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid rgb(0 0 0 / .2);
-    padding: 1rem;
-    box-shadow: 0 0 30px grey;
+    border: 1px solid rgba(2, 2, 18, 0.2);
+    padding: var(--padding);
+    box-shadow: var(--box-shadow);
 }
 
 footer {
