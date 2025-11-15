@@ -6,10 +6,10 @@
 
 
 :root {
-    --primary-color: rgb(182, 238, 197);
-    --secondary-color: rgb(220, 228, 200);
-    --accent1-color: rgb(108, 117, 32);
-    --accent2-color: rgb(240, 245, 191) ;
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
     --heading-font: ;
     --body-font: "Times New Roman";    
 }
@@ -50,7 +50,7 @@ nav, p, section, article {
 
 h1 {
     position: absolute;
-    top: 20px
+    top: 20px;
     width: 125px;
     padding: 16px;
     text-align: center;
@@ -62,7 +62,7 @@ h1 {
 
 article {
     /* position: relative; */
-    width: 20rem;
+    width: 10rem;
     background-color: rgb(147, 201, 252);
     text-align: center
 }
