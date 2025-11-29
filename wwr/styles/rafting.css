@@ -75,6 +75,7 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    margin-top: 1rem;
 }
 
 h1 {
@@ -106,6 +107,19 @@ h1 {
 
 }
 
+h2 {
+    position: relative;
+    top: 50px;
+    left: 300px;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+
+}
+
 .history {
     display: flex;
     align-items: center;
@@ -117,10 +131,26 @@ h1 {
 }
 
 .history p {
-    flex: 1;
+    float: right;
+    width: 300px;
+    border: 1px solid var(--accent2-color);
 }
 .history img {
-    flex-shrink: 0;
+    float: right;
+    width: 130px;
+    border: 1px solid var(--accent2-color);
+}
+
+h3 {
+    position: relative;
+    top: 60px;
+    left: 260px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
 
 }
 
@@ -133,6 +163,10 @@ h1 {
     color: #264653;
     width: 100%;
     height: auto;
+}
+
+.adventure-gallery img {
+    margin-top: 3rem;
 }
 
 .footer {
