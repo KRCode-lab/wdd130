@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="A contact form which a user can submit to ask questions. This will be an interatctive form where questions about the company and it's services can be answerd .">
+    <meta name="author" content="Kirti Ram">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/background.jpg" alt="River Rafting" width="125" height="125">
+        <div id="logo">Rafting Travel</div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="company">
+            <h1>Rafting Travel</h1>
+
+            <article>
+                <p>Middleland, Arizona</p>
+                <p>5 999 000</p>
+                <p>contact@riverrafting.com</p>
+            </article>
+        </div>
+
+        <!-- <section class="company-information">
+            <h2>Rafting Travel</h2> -->
+
+        </section>
+
+        < class="contact-container">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29732176.24250625!2d-106.70225777040824!3d44.28467293936502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1765004125288!5m2!1sen!2sus"
+                    width="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form class="form-item">
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+
+
+                <label>Message Purpose</label>
+
+                <div class="radio-grid">
+                    <label><input type="radio" name="purpose" value="General Inquiry">General
+                        Inquiry</label>
+                    <label><input type="radio" name="purpose" value="Reservation Question">Reservation
+                        Question</label>
+                    <label><input type="radio" name="purpose" value="Website Suggestion">Website
+                        Suggestion</label>
+                </div>
+
+                <label for="message">Message</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Type here"></textarea>
+                <button type="submit">Submit</button>
+
+                <div class="checkbox">
+                    <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                </div>
+
+            </form>
+
+            </div>
+            <section class="employees">
+                <h2>We are here for you!</h2>
+                <div class="employee-gallery">
+
+                    <figure>
+                        <img src="images/employee1.jpg" alt="Jen" width="100">
+                        <figcaption>Jennifer</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/employee2.jpg" alt="Maria" width="100">
+                        <figcaption>Maria</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/employee3.jpg" alt="Brian" width="100">
+                        <figcaption>Brian</figcaption>
+                    </figure>
+                </div>
+
+            </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 🚣🏾Rafting Travel🚣🏾 Kirti Ram</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon" width="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon" width="50">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="Linkedin Icon" width="50"></a>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
