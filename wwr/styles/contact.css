@@ -124,7 +124,7 @@ button {
     margin: 0;
 }
 
-/* ========== EMPLOYEE SECTION ========== */
+
 .employees {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

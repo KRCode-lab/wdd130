@@ -1,0 +1,27 @@
+form {
+    background-color: rgb(240, 239, 239);
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.examplecode {
+    background-color: grey;
+    color: white;
+    margin-left: 2rem;
+    margin-right: 35rem;
+    padding-left: .25rem;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: .5rem;
+}
+
+label, input, textarea, select, button {
+    margin: .5rem;
+    
+}
