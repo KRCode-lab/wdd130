@@ -116,6 +116,20 @@ button {
     cursor: pointer;
 }
 
+section {
+    text-align: center;
+}
+h2 {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(233, 228, 237);
+    color: #0e0d0d;
+    font-size: medium;
+    margin: 50px auto 20px;
+
+}
+
 .adventure-gallery {
     display: flex;
     justify-content: center;
@@ -132,13 +146,15 @@ button {
 }
 
 .footer {
-    margin-top: 3rem;
-    background-color: #edeaf2;
-    text-align: center;
-    padding: 1rem 0;
-    color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgb(241, 237, 237);
+    color: #055a05;
 }
 
-.socialmedia img {
-    margin: 0 0.5rem;
+.socialmedia {
+    display: flex;
+    gap: 1rem;
 }
