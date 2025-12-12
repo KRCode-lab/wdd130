@@ -105,6 +105,12 @@ fieldset {
     border-radius: 4px;
 }
 
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
 button {
     width: fit-content;
     padding: 0.7rem 1.2rem;
@@ -116,10 +122,10 @@ button {
     cursor: pointer;
 }
 
-section {
+section.contact {
     text-align: center;
 }
-h2 {
+.contact h2 {
     display: inline-block;
     padding: 10px;
     text-align: center;
@@ -130,7 +136,7 @@ h2 {
 
 }
 
-.adventure-gallery {
+.worker-gallery {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -141,7 +147,7 @@ h2 {
     height: auto;
 }
 
-.adventure-gallery img {
+.worker-gallery img {
     margin-top: 3rem;
 }
 
